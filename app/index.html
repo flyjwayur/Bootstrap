@@ -1,0 +1,236 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>bootstrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) .tmp/styles/main.css -->
+    <link rel="stylesheet" href=".tmp/styles/main.css">
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:css styles/-custom-variables.scss -->
+    <link rel="stylesheet" href="_custom-variables.scss">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    <!-- build:js juqery/dist/jquery.min.js -->
+    <script src="/jquery/dist/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+                      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                    <![endif]-->
+<!--Header-->
+    <!--Navigation-->
+    <div class="container-fluid header">
+        <nav class="navbar navbar-default">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-onlys"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand page-scroll" href="#page-top">Media Sharing</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="page-scroll"><a href="#image">Image<span class="sr-only">(current)</span></a></li>
+                                <li class="page-scroll"><a href="#video">Video</a></li>
+                                <li class="page-scroll"><a href="#audio">Audio</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Profile <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Setting</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Sign out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+            </div>
+        </nav>
+        <div class="row main-message feature">
+            <div class="col-md-6 col-md-offset-2 col-xs-12">
+                <h2 class="first-main-message"><strong>Welcome to visit!</strong></h2>
+                <p class="lead"><em>Happy new year :D Best wishes for 2016</em></p>
+                <p>
+                    <button type="button" class="btn btn-lg btn-default">Favorite Images</button>
+                    <buton type="button" class="btn btn-lg btn-primary">Favorite Video</buton>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of nav -->
+  <!--End of header-->    
+
+    <!-- Start main contents -->
+    <div class="container">
+        <!-- Image -->
+        <section id="image">
+            <div class="row text-center">
+                <i class="glyphicon glyphicon-camera"></i>
+                <div class="sub-title">Image</div>
+                <div class="col-md-6 col-sm-4">
+                    <h3>Title : Ice climbing in Iceland</h3>
+                    <p>Ice climbing in Icland into the heart of Vatnajökull Climber Rahel Schelb stands in the Vatnajökull glacier in Iceland as the northern lights glow in the background. A film that ventures into the belly of Iceland’s Vatnajökull – one of Europe’s largest glaciers – will screen at the Kendal Mountain Festival (which starts today and runs until 22 November, mountainfest.co.uk). The 16-minute film, Climbing Ice – The Iceland Trifecta, made by SmugMug Films (smugmug.com/films/tim-kemple), follows adventure photographer Tim Kemple (kemplemedia.com) as he shoots ice climbers Klemen Premrl, from Switzerland, and Rahel Schelb, from Slovenia, attempting a horizontal climb across the ceiling of an ice cave, traversing crevasses and scaling icebergs</p>
+                </div>
+                <div class="hidden-xs col-md-5 col-md-offset-1 ">
+                    <img src="images/ice.jpg" alt="ice">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End of Image -->
+    <!-- video -->
+    <div class="container-fluid">
+        <section id="video">
+            <div class="row text-center">
+                <i class="glyphicon glyphicon-facetime-video"></i>
+                <div class="sub-title">Video</div>
+                <div class="col-md-6 col-sm-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2mkWka3HJ04"></iframe>
+                    </div>
+                </div>
+                <div class="hidden-xs col-md-5 col-md-offset-1">
+                    <h3>The beautiful view of Iceland</h3>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        Publishing Date : Aug 11, 2015
+                        <br> Contents : National Geographic HD Documentary
+                        <br> Maker : Nat Geo Wild, Nature & Wildlife
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End of video -->
+    <!-- audio -->
+    <div class="container">
+        <section id="Audio">
+            <div class="row text-center">
+                <i class="glyphicon glyphicon glyphicon-headphones"></i>
+                <div class="sub-title">Audio</div>
+                <div class="col-md-6 col-sm-4">
+                    <audio controls="controls" src="audio/CubanSandwich.mp3">
+                        Your browser does not support the HTML5 audio element.
+                    </audio>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <h3>Title : Cuban Sandwich</h3>
+                    <p>Copy right by : Kevin MacLeod (incompetech.com)
+                        <br> Liscence : Licensed under Creative Commons: By Attribution 3.0 License
+                        <br> Link for liscence : http://creativecommons.org/licenses/by/3.0/
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- End of audio -->
+    </div>
+    <!-- End of main contents -->
+
+    <!-- footer -->
+        <div class="footer">
+            <div class='container-fluid'>
+                <div class="row"></div>
+                <div class='col-md-3'>
+                    <h4>Who I am</h4>
+                    <p><i>HyeSoo :D </i></p>
+                    <p><a href='about.html'>More About me</a></p>
+                </div>
+
+                <div class='col-md-3'>
+                    <h4>Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href='3'>Home</a></li>
+                        <li><a href='#'>Image</a></li>
+                        <li><a href='#'>Video</a></li>
+                        <li><a href='#'>Audio</a></li>
+                    </ul>
+                </div>
+
+                <div class='col-md-2'>
+                    <h4>Stay in Touch</h4>
+                      <ul class="list-unstyled">
+                        <li><a href='about.html'>About</a></li>
+                        <li><a href='contact.html'>Contact Us</a></li>
+                        <li><a href='/blog'>Blog</a></li>
+                        <li><a href='http://twitter.com/codeschool'>Twitter</a></li>
+                        <li><a href='http://facebook.com/codeschool'>Facebook</a></li>
+                    </ul>
+                </div>
+
+                <div class='col-md-3 col-md-offset-1'>
+                    <h4>Contact Me</h4>
+                      <ul class="list-unstyled">
+                        <li>Espoo, Finland</li>
+                        <li>+385-64-blah-blah</li>
+                        <li><a href='mailto:blahblah@metropolia.fi'>blahblah@metropolia.fi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center" id="copyr">
+                <p>Learning Bootstrap &copy; HyeSoo</p>
+            </div>
+        </div>
+    <!-- End of footer -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:js(.) scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

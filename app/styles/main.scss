@@ -1,0 +1,68 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+// add files to customize bootstrap
+@import "_custom-fonts.scss";
+@import "_custom-variables.scss";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+// your own css/scss
+.header {
+    background-image: url(../images/bg_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .95;
+}
+
+.main-message {
+    margin: 0 auto;
+    padding: 100px;
+    font-family: sans-serif;
+}
+
+.first-main-message {
+    font-size: 50px;
+    text-shadow: 0 0 5px #FFF;
+}
+
+.glyphicon {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 470px;
+    height: 282px;
+}
+
+iframe {
+    width: 470px;
+    height: 282px;
+}
+
+.sub-title {
+    font-size: 30px;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+
+#video {
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color:darkturquoise;
+    color:azure;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: auto 0px;
+}
+
+#copyr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+// your own css/scss ends
